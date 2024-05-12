@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- icon animated -->
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome-animation/0.0.8/font-awesome-animation.min.css" />
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="I Am Atomic boom">
+  <meta name="author" content="Abdul Rahman">
+  <title>Mteam | Production</title>
+  <link rel="shortcut icon" href="https://i.imgur.com/0hRH1jU.png" type="image/x-icon">
+  <link href="https://inirey.github.io/lolhuman/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <link href="https://inirey.github.io/lolhuman/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+  <link href="https://inirey.github.io/lolhuman/css/default.css" rel="stylesheet">
+  <link href="https://inirey.github.io/lolhuman/css/style.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet"> 
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body id="page-top" class="dark-mode">
+  <div id="wrapper">
+    <!-- Sidebar -->
+    <ul class="navbar-nav sidebar sidebar-light accordion" id="accordionSidebar">
+      <a class="sidebar-brand d-flex align-items-center justify-content-center" href="profile.html">
+        <i class="fa fa-smile-beam fa 4x"></i>
+        <div class="sidebar-brand-text mx-3">List :)</div>
+      </a>
+      <hr class="sidebar-divider my-0">
+      <li class="nav-item active">
+        <a class="nav-link" onclick="myFunction()">
+          <i class="fas fa-exclamation-triangle"></i>
+          <span>Versions 1</span>
+        </a>
+      </li>
+      <hr class="sidebar-divider">
+      <div class="sidebar-heading">
+        Produk
+      </div>
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseDownload"
+          aria-expanded="true" aria-controls="collapseBootstrap">
+          <i class="fa fa-duotone fa-robot"></i>
+          <span>Bot&Term and service</span>
+        </a>
+        <div id="collapseDownload" class="collapse" aria-labelledby="headingBootstrap" data-parent="#accordionSidebar">
+          <div class="py-2 collapse-inner rounded">
+            <h6 class="collapse-header">Bot <i class="fa fa-solid fa-tag"></i></h6>
+            <a class="collapse-item" target="_blank" href="https://wa.me/601121636750?text=nak sewa bot :3" target="_blank">Owner Bot</a>
+            <a class="collapse-item" target="_blank" href="https://wa.me/601151433125?text=.menu" target="_blank">Nombor Bot </a>
+
+
+            <h6 class="collapse-header">About Mteam Production<i class="fa fa-solid fa-tag"></i></h6>
+            <a class="collapse-item" target="_blank" href="https://wa.me/601121636750?text=#bug"target="_blank">Owner</a>
+            <a class="collapse-item" href="bot.html" >Term and Service <i class="fa fa-solid fa-tag"></i></a>
+          </div>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#website"
+          aria-expanded="true" aria-controls="collapseBootstrap">
+          <i class="fa fa-solid fa-folder"></i>
+          <span>Nothing</span>
+        </a>
+        <div id="website" class="collapse" aria-labelledby="headingBootstrap" data-parent="#accordionSidebar">
+          <div class="py-2 collapse-inner rounded">
+          
+          </div>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#panel"
+          aria-expanded="true" aria-controls="collapseBootstrap">
+          <i class="fa fa-solid fa-envelope-open-text"></i>
+          <span>Panel</span>
+        </a>
+        <div id="panel" class="collapse" aria-labelledby="headingBootstrap" data-parent="#accordionSidebar">
+          <div class="py-2 collapse-inner rounded">
+            <h6 class="collapse-header">Work in progress<i class="fa fa-solid fa-tag"></i></h6>
+       
+            <a class="collapse-item" href="undefined.html">Nothing<i class="fa fa-solid fa-tag"></i></a>
+          </div>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#topup"
+          aria-expanded="true" aria-controls="collapseBootstrap">
+          <i class="fa fa-regular fa-gem"></i>
+          <span>Bonus (WIP)</span>
+        </a>
+        <div id="" class="collapse" aria-labelledby="headingBootstrap" data-parent="#accordionSidebar">
+          <div class="py-2 collapse-inner rounded">
+ 
+          </div>
+        </div>
+      </li>
+      <hr class="sidebar-divider">
+      <div class="sidebar-heading">
+        Contact
+      </div>
+      <li class="nav-item">
+        <a class="nav-link" href="https://wa.me/601121636750?text=Assalamualaikum+bang+,tolong+ada+bug">
+          <i class="fab fa-brands fa-whatsapp"></i>
+          <span>Whatsapp</span>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="https://wa.me/601121636750?text=Assalamualaikum+bang">
+          <i class="fa fa-regular fa-address-card"></i>
+          <span>Service</span>
+        </a>
+      </li>
+      <li class="nav-item">
+
+        </a>
+      </li>
+      <hr class="sidebar-divider">
+      <li class="nav-item active">
+        <a class="nav-link" onclick="Danz()">
+          <i class="fas fa-exclamation-triangle"></i>
+          <span>Abdul and Admin Only!</span>
+        </a>
+      </li>
+    </ul>
+    <!-- Sidebar -->
+    <div id="content-wrapper" class="d-flex flex-column">
+      <div id="content">
+        <!-- TopBar -->
+        <nav class="navbar navbar-expand navbar-light bg-navbar topbar mb-4 static-top">
+          <button id="sidebarToggleTop" class="btn btn-link rounded-circle mr-3">
+            <i class="fa fa-bars"></i>
+          </button>
+          <ul class="navbar-nav ml-auto">
+            <div class="topbar-divider d-none d-sm-block"></div>
+            <li class="nav-item dropdown no-arrow">
+              </a>
+              <div class="dropdown-menu dropdown-menu-right p-3 shadow animated--grow-in"
+                aria-labelledby="searchDropdown">
+              </div>
+            </li>
+            <li class="nav-item dropdown no-arrow mx-1">
+              <a class="nav-link dropdown-toggle" href="#" id="alertsDropdown" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                <i class="fas fa-bell fa-fw"></i>
+                <span class="badge badge-success badge-counter">2 </span>
+              </a>
+              <div class="dropdown-list dropdown-menu dropdown-menu-right shadow animated--grow-in"
+                aria-labelledby="alertsDropdown">
+                <h6 class="dropdown-header bg-info-gradient">
+                  INFO CENTER
+                </h6>
+                <a class="dropdown-item d-flex align-items-center" href="#">
+                  <div class="mr-3">
+                    <div class="icon-circle bg-danger">
+                      <i class="fas fa-info-circle text-white"></i>
+                    </div>
+                  </div>
+                  <div>
+                    <div class="small text-gray-500">ndak tahu</div>
+                    <span style="font-size:12px;">Halo ðŸ˜‡</span>
+                  </div>
+                </a>
+                <a class="dropdown-item d-flex align-items-center" href="#">
+                  <div class="mr-3">
+                    <div class="icon-circle bg-danger">
+                      <i class="fas fa-file-alt text-white"></i>
+                    </div>
+                  </div>
+                  <div>
+                    <div class="small text-gray-500">october 1, 2010</div>
+                    <span style="font-size:14px;">Master Lahir </span>
+                  </div>
+                </a>
+              </div>
+            </li>
+
+            <li class="nav-item dropdown no-arrow mx-1">
+              <a class="nav-link dropdown-toggle" href="../index.html">
+                <i class="fas fa-home"></i>
+              </a>
+              <div class="dropdown-list dropdown-menu dropdown-menu-right shadow animated--grow-in"
+                aria-labelledby="alertsDropdown">
+            </li>
+          </ul>
+        </nav>
+        <!-- Sidebar -->
+
+        <!-- Container Fluid-->
+        <div class="container-fluid" id="container-wrapper">
+          <div class="mb-4">
+            <div class="card-body" style="border-radius: 10px; background-color: rgb(132, 230, 255); color: white;">
+              <div class="row align-items-center">
+                <div class="col mr-2">
+                  <center>
+                    <h3 class="name" style="margin-bottom: 0;">MasterStore<i class="fas fa-solid fa-store"></i></h3>
+                  </center>
+                </div>
+                <div class="col-auto">
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row mb-3">
+            <!-- Earnings (Annual) Card Example -->
+            <div class="col-xl-3 col-md-6 mb-4">
+              <div>
+                <div class="card-body" style="border-radius: 10px; background-color: rgb(255, 252, 83);">
+                  <div class="row no-gutters align-items-center">
+                    <div class="col mr-2">
+                      <div class="text-xs font-weight-bold text-uppercase mb-1" style="color: white;">Total Testi: </div>
+                      <div class="h5 mb-0 font-weight-bold name" style="color: white;">3746 User</div>
+                    </div>
+                    <div class="col-auto">
+                      <i class="fa fa-user faa-ring animated fa-4x" style="color: black;"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Pending Requests Card Example -->
+            <div class="col-xl-3 col-md-6 mb-4">
+              <div>
+                <div class="card-body" style="border-radius: 10px; background-color: rgb(62, 242, 255);">
+                  <div class="row no-gutters align-items-center">
+                    <div class="col mr-2">
+                      <div class="text-xs font-weight-bold text-uppercase mb-1" style="color: white;">Total Admin: </div>
+                      <div class="h5 mb-0 font-weight-bold name" style="color: white;">8</div>
+                    </div>
+                    <div class="col-auto">
+                      <i class="fas fa-calendar faa-wrench animated fa-4x" style="color: black;"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xl-3 col-md-6 mb-4">
+              <div>
+                <div class="card-body" style="border-radius: 10px; background-color: rgb(62, 255, 158);">
+                  <div class="row no-gutters align-items-center">
+                    <div class="col mr-2">
+                      <div class="text-xs font-weight-bold text-uppercase mb-1" style="color: white;">Mteam Server Cloud: </div>
+                      <div class="h5 mb-0 font-weight-bold name" style="color: white;">900GB </div>
+                    </div>
+                    <div class="col-auto">
+                      <i class="fa fa-solid fa-cloud faa-ring animated fa-4x" style="color: black;"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xl-3 col-md-6 mb-4">
+              <div>
+                <div class="card-body" style="border-radius: 10px; background-color: rgb(255, 81, 81);">
+                  <div class="row no-gutters align-items-center">
+                    <div class="col mr-2">
+                      <div class="text-xs font-weight-bold text-uppercase mb-1" style="color: white;">Waktu:</div>
+                      <div id="clock" class="name" style="color: white;">8 Hari </div>
+                    </div>
+                    <div class="col-auto">
+                      <i class="fa fa-solid fa-clock faa-wrench animated fa-4x" style="color: black;"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+          </div>
+          <!--End-->
+
+          <h2 id="temp">List Produk<i class="fa fa-solid fa-tag"></i></h2>
+          <div class="row mb-3">
+            <!-- Earnings (Annual) Card Example -->
+            <div class="col-xl-3 col-md-6 mb-4">
+              <div>
+                <div class="card-body" style="border-radius: 10px; background-color: rgb(200, 81, 255);">
+                  <div class="row no-gutters align-items-center">
+                    <div class="col mr-2">
+                      <div class="h5 mb-0 font-weight-bold name" style="color: white;">Script Roblox Premium +anticheat 89XG</div>
+                      <div class="text-xs font-weight-bold text-uppercase mb-1" style="color: white;">RM50</div>
+                      <a href="https://wa.me/601121636750?text=Assalamualaikum+bang+Mau+Script+Roblox+Premium">
+                      <div class="button" data-tooltip="Buy Di Owner">
+                        <div class="button-wrapper">
+                          <div class="text">Beli</div>
+                            <span class="icon">
+                              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                                <path d="M253.3 35.1c6.1-11.8 1.5-26.3-10.2-32.4s-26.3-1.5-32.4 10.2L117.6 192H32c-17.7 0-32 14.3-32 32s14.3 32 32 32L83.9 463.5C91 492 116.6 512 146 512H430c29.4 0 55-20 62.1-48.5L544 256c17.7 0 32-14.3 32-32s-14.3-32-32-32H458.4L365.3 12.9C359.2 1.2 344.7-3.4 332.9 2.7s-16.3 20.6-10.2 32.4L404.3 192H171.7L253.3 35.1zM192 304v96c0 8.8-7.2 16-16 16s-16-7.2-16-16V304c0-8.8 7.2-16 16-16s16 7.2 16 16zm96-16c8.8 0 16 7.2 16 16v96c0 8.8-7.2 16-16 16s-16-7.2-16-16V304c0-8.8 7.2-16 16-16zm128 16v96c0 8.8-7.2 16-16 16s-16-7.2-16-16V304c0-8.8 7.2-16 16-16s16 7.2 16 16z"/>
+                              </svg>
+                            </span>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="col-auto">
+                      <i class="fa fa-solid fa-folder animated fa-5x" style="color: black;"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xl-3 col-md-6 mb-4">
+              <div>
+                <div class="card-body" style="border-radius: 10px; background-color: rgb(255, 81, 226);">
+                  <div class="row no-gutters align-items-center">
+                    <div class="col mr-2">
+                      <div class="h5 mb-0 font-weight-bold name" style="color: white;">Joki Blox Fruit </div>
+                      <div class="text-xs font-weight-bold text-uppercase mb-1" style="color: white;">Ikut Joki anda</div>
+                      <a href="https://wa.me/601121636750?text=Assalamualaikum+bang+Mau+Joki+blox fruit">
+                      <div class="button" data-tooltip="Buy Di Owner">
+                        <div class="button-wrapper">
+                          <div class="text">Beli</div>
+                            <span class="icon">
+                              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                                <path d="M253.3 35.1c6.1-11.8 1.5-26.3-10.2-32.4s-26.3-1.5-32.4 10.2L117.6 192H32c-17.7 0-32 14.3-32 32s14.3 32 32 32L83.9 463.5C91 492 116.6 512 146 512H430c29.4 0 55-20 62.1-48.5L544 256c17.7 0 32-14.3 32-32s-14.3-32-32-32H458.4L365.3 12.9C359.2 1.2 344.7-3.4 332.9 2.7s-16.3 20.6-10.2 32.4L404.3 192H171.7L253.3 35.1zM192 304v96c0 8.8-7.2 16-16 16s-16-7.2-16-16V304c0-8.8 7.2-16 16-16s16 7.2 16 16zm96-16c8.8 0 16 7.2 16 16v96c0 8.8-7.2 16-16 16s-16-7.2-16-16V304c0-8.8 7.2-16 16-16zm128 16v96c0 8.8-7.2 16-16 16s-16-7.2-16-16V304c0-8.8 7.2-16 16-16s16 7.2 16 16z"/>
+                              </svg>
+                            </span>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="col-auto">
+                      <i class="fa fa-solid fa-folder animated fa-2x" style="color: black;"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xl-3 col-md-6 mb-4">
+              <div>
+                <div class="card-body" style="border-radius: 10px; background-color: rgb(81, 255, 81);">
+                  <div class="row no-gutters align-items-center">
+                    <div class="col mr-2">
+                      <div class="h5 mb-0 font-weight-bold name" style="color: white;">(WIP)</div>
+                      <div class="text-xs font-weight-bold text-uppercase mb-1" style="color: white;">(WIP)</div>
+                      <a href="https://wa.me/601121636750?text=Assalamualaikum+bang">
+                      <div class="button" data-tooltip="Buy Di Owner">
+                        <div class="button-wrapper">
+                          <div class="text">BETA</div>
+                            <span class="icon">
+                              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                                <path d="M253.3 35.1c6.1-11.8 1.5-26.3-10.2-32.4s-26.3-1.5-32.4 10.2L117.6 192H32c-17.7 0-32 14.3-32 32s14.3 32 32 32L83.9 463.5C91 492 116.6 512 146 512H430c29.4 0 55-20 62.1-48.5L544 256c17.7 0 32-14.3 32-32s-14.3-32-32-32H458.4L365.3 12.9C359.2 1.2 344.7-3.4 332.9 2.7s-16.3 20.6-10.2 32.4L404.3 192H171.7L253.3 35.1zM192 304v96c0 8.8-7.2 16-16 16s-16-7.2-16-16V304c0-8.8 7.2-16 16-16s16 7.2 16 16zm96-16c8.8 0 16 7.2 16 16v96c0 8.8-7.2 16-16 16s-16-7.2-16-16V304c0-8.8 7.2-16 16-16zm128 16v96c0 8.8-7.2 16-16 16s-16-7.2-16-16V304c0-8.8 7.2-16 16-16s16 7.2 16 16z"/>
+                              </svg>
+                            </span>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="col-auto">
+                      <i class="fa fa-solid fa-folder animated fa-2x" style="color: black;"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xl-3 col-md-6 mb-4">
+              <div>
+                <div class="card-body" style="border-radius: 10px; background-color: rgb(81, 107, 255);">
+                  <div class="row no-gutters align-items-center">
+                    <div class="col mr-2">
+                      <div class="h5 mb-0 font-weight-bold name" style="color: white;">Produk apa ye ni </div>
+                      <div class="text-xs font-weight-bold text-uppercase mb-1" style="color: white;">RM700000000</div>
+                      <a href="https://wa.me/601121636750?text=Assalamualaikum+bang+Mau+Bagi+Duid">
+                      <div class="button" data-tooltip="Buy Di Owner">
+                        <div class="button-wrapper">
+                          <div class="text">Hehe</div>
+                            <span class="icon">
+                              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                                <path d="M253.3 35.1c6.1-11.8 1.5-26.3-10.2-32.4s-26.3-1.5-32.4 10.2L117.6 192H32c-17.7 0-32 14.3-32 32s14.3 32 32 32L83.9 463.5C91 492 116.6 512 146 512H430c29.4 0 55-20 62.1-48.5L544 256c17.7 0 32-14.3 32-32s-14.3-32-32-32H458.4L365.3 12.9C359.2 1.2 344.7-3.4 332.9 2.7s-16.3 20.6-10.2 32.4L404.3 192H171.7L253.3 35.1zM192 304v96c0 8.8-7.2 16-16 16s-16-7.2-16-16V304c0-8.8 7.2-16 16-16s16 7.2 16 16zm96-16c8.8 0 16 7.2 16 16v96c0 8.8-7.2 16-16 16s-16-7.2-16-16V304c0-
